@@ -1,0 +1,105 @@
+mode,question,context_precision,context_recall,faithfulness,model
+dense,What is the deductible for the Northwind Standard plan?,0.833,1.0,1.0,qwen3:4b-instruct
+dense,What is the out-of-pocket maximum for Northwind Standard?,1.0,nan,0.833,qwen3:4b-instruct
+dense,What is the copay for a primary care visit under Northwind Standard?,0.0,nan,1.0,qwen3:4b-instruct
+dense,What is the specialist visit copay on Northwind Standard?,0.5,0.0,0.0,qwen3:4b-instruct
+dense,What is the coinsurance for Northwind Standard after the deductible?,nan,0.0,1.0,qwen3:4b-instruct
+dense,What is the out-of-pocket maximum for Northwind Health Plus?,0.0,nan,0.8,qwen3:4b-instruct
+dense,What is the coinsurance for Northwind Health Plus?,0.0,0.0,0.0,qwen3:4b-instruct
+dense,What is the in-network primary care copay for Northwind Health Plus?,0.0,nan,0.0,qwen3:4b-instruct
+dense,What is the out-of-network specialist copay under Northwind Health Plus?,0.0,0.0,0.0,qwen3:4b-instruct
+dense,What is the in-network emergency services copay on Northwind Health Plus?,0.0,nan,0.0,qwen3:4b-instruct
+dense,Does Northwind Standard cover emergency services?,0.589,1.0,1.0,qwen3:4b-instruct
+dense,Does Northwind Standard cover mental health and substance abuse services?,0.804,1.0,0.833,qwen3:4b-instruct
+dense,Which Northwind plan covers out-of-network services?,0.0,0.0,0.8,qwen3:4b-instruct
+dense,What services do both Northwind plans cover?,0.2,0.0,nan,qwen3:4b-instruct
+dense,How does Zava collect the employee's share of health insurance costs?,0.0,0.0,0.0,qwen3:4b-instruct
+dense,How much can employees expense through PerksPlus?,1.0,1.0,1.0,qwen3:4b-instruct
+dense,Are gym memberships covered by PerksPlus?,1.0,1.0,1.0,qwen3:4b-instruct
+dense,Which lessons does PerksPlus cover?,1.0,nan,1.0,qwen3:4b-instruct
+dense,What is not covered by PerksPlus?,1.0,nan,0.333,qwen3:4b-instruct
+dense,Can I use PerksPlus to buy supplements?,0.833,1.0,1.0,qwen3:4b-instruct
+dense,When did Zava expand into sustainable product lines?,1.0,1.0,0.5,qwen3:4b-instruct
+dense,What are Zava's core values according to the company overview?,0.25,nan,0.8,qwen3:4b-instruct
+dense,How much vacation do Senior employees get at Zava?,0.333,1.0,1.0,qwen3:4b-instruct
+dense,What vacation does the Executive tier get?,0.0,0.0,1.0,qwen3:4b-instruct
+dense,What industry does the Zava employee handbook say Zava is in?,0.0,nan,0.0,qwen3:4b-instruct
+dense,How often are performance reviews conducted at Zava?,1.0,1.0,1.0,qwen3:4b-instruct
+dense,What is the Compliance Hotline number for anonymous whistleblower reports?,1.0,1.0,0.5,qwen3:4b-instruct
+dense,Who should I contact with questions about Zava's privacy policy?,1.0,nan,1.0,qwen3:4b-instruct
+dense,How often must employees complete data security training?,1.0,1.0,1.0,qwen3:4b-instruct
+dense,How many years of executive management experience does the CEO role require?,1.0,1.0,1.0,qwen3:4b-instruct
+dense,Who prepared the Financial Market Analysis Report 2023?,1.0,1.0,1.0,qwen3:4b-instruct
+dense,Which markets does the 2023 financial market report cover?,1.0,1.0,0.75,qwen3:4b-instruct
+dense,What is the correlation between Bitcoin and Ethereum in the financial report?,0.0,0.0,0.5,qwen3:4b-instruct
+dense,What is the correlation between the S&P 500 and NASDAQ in the 2023 report?,1.0,1.0,0.75,qwen3:4b-instruct
+hybrid,What is the deductible for the Northwind Standard plan?,1.0,1.0,0.75,qwen3:4b-instruct
+hybrid,What is the out-of-pocket maximum for Northwind Standard?,0.25,1.0,0.571,qwen3:4b-instruct
+hybrid,What is the copay for a primary care visit under Northwind Standard?,0.0,0.0,0.5,qwen3:4b-instruct
+hybrid,What is the specialist visit copay on Northwind Standard?,0.5,0.0,1.0,qwen3:4b-instruct
+hybrid,What is the coinsurance for Northwind Standard after the deductible?,0.679,1.0,1.0,qwen3:4b-instruct
+hybrid,What is the out-of-pocket maximum for Northwind Health Plus?,0.0,0.0,1.0,qwen3:4b-instruct
+hybrid,What is the coinsurance for Northwind Health Plus?,0.5,1.0,1.0,qwen3:4b-instruct
+hybrid,What is the in-network primary care copay for Northwind Health Plus?,0.5,1.0,0.571,qwen3:4b-instruct
+hybrid,What is the out-of-network specialist copay under Northwind Health Plus?,1.0,1.0,0.5,qwen3:4b-instruct
+hybrid,What is the in-network emergency services copay on Northwind Health Plus?,1.0,nan,1.0,qwen3:4b-instruct
+hybrid,Does Northwind Standard cover emergency services?,1.0,nan,1.0,qwen3:4b-instruct
+hybrid,Does Northwind Standard cover mental health and substance abuse services?,1.0,1.0,0.923,qwen3:4b-instruct
+hybrid,Which Northwind plan covers out-of-network services?,0.5,0.5,0.333,qwen3:4b-instruct
+hybrid,What services do both Northwind plans cover?,nan,1.0,0.909,qwen3:4b-instruct
+hybrid,How does Zava collect the employee's share of health insurance costs?,0.333,1.0,0.75,qwen3:4b-instruct
+hybrid,How much can employees expense through PerksPlus?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid,Are gym memberships covered by PerksPlus?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid,Which lessons does PerksPlus cover?,1.0,1.0,0.889,qwen3:4b-instruct
+hybrid,What is not covered by PerksPlus?,1.0,nan,0.75,qwen3:4b-instruct
+hybrid,Can I use PerksPlus to buy supplements?,0.75,1.0,0.4,qwen3:4b-instruct
+hybrid,When did Zava expand into sustainable product lines?,1.0,1.0,0.5,qwen3:4b-instruct
+hybrid,What are Zava's core values according to the company overview?,0.5,1.0,1.0,qwen3:4b-instruct
+hybrid,How much vacation do Senior employees get at Zava?,0.5,nan,0.5,qwen3:4b-instruct
+hybrid,What vacation does the Executive tier get?,0.333,nan,1.0,qwen3:4b-instruct
+hybrid,What industry does the Zava employee handbook say Zava is in?,0.5,nan,1.0,qwen3:4b-instruct
+hybrid,How often are performance reviews conducted at Zava?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid,What is the Compliance Hotline number for anonymous whistleblower reports?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid,Who should I contact with questions about Zava's privacy policy?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid,How often must employees complete data security training?,0.833,1.0,0.667,qwen3:4b-instruct
+hybrid,How many years of executive management experience does the CEO role require?,0.75,nan,1.0,qwen3:4b-instruct
+hybrid,Who prepared the Financial Market Analysis Report 2023?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid,Which markets does the 2023 financial market report cover?,1.0,1.0,0.75,qwen3:4b-instruct
+hybrid,What is the correlation between Bitcoin and Ethereum in the financial report?,0.0,nan,1.0,qwen3:4b-instruct
+hybrid,What is the correlation between the S&P 500 and NASDAQ in the 2023 report?,1.0,nan,0.75,qwen3:4b-instruct
+hybrid_rerank,What is the deductible for the Northwind Standard plan?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,What is the out-of-pocket maximum for Northwind Standard?,0.7,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,What is the copay for a primary care visit under Northwind Standard?,0.833,0.0,1.0,qwen3:4b-instruct
+hybrid_rerank,What is the specialist visit copay on Northwind Standard?,0.756,1.0,0.571,qwen3:4b-instruct
+hybrid_rerank,What is the coinsurance for Northwind Standard after the deductible?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,What is the out-of-pocket maximum for Northwind Health Plus?,0.333,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,What is the coinsurance for Northwind Health Plus?,1.0,1.0,0.5,qwen3:4b-instruct
+hybrid_rerank,What is the in-network primary care copay for Northwind Health Plus?,0.75,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,What is the out-of-network specialist copay under Northwind Health Plus?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,What is the in-network emergency services copay on Northwind Health Plus?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,Does Northwind Standard cover emergency services?,0.95,nan,0.6,qwen3:4b-instruct
+hybrid_rerank,Does Northwind Standard cover mental health and substance abuse services?,nan,nan,0.667,qwen3:4b-instruct
+hybrid_rerank,Which Northwind plan covers out-of-network services?,nan,1.0,0.857,qwen3:4b-instruct
+hybrid_rerank,What services do both Northwind plans cover?,nan,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,How does Zava collect the employee's share of health insurance costs?,0.75,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,How much can employees expense through PerksPlus?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,Are gym memberships covered by PerksPlus?,1.0,nan,1.0,qwen3:4b-instruct
+hybrid_rerank,Which lessons does PerksPlus cover?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,What is not covered by PerksPlus?,1.0,nan,0.667,qwen3:4b-instruct
+hybrid_rerank,Can I use PerksPlus to buy supplements?,nan,1.0,0.5,qwen3:4b-instruct
+hybrid_rerank,When did Zava expand into sustainable product lines?,1.0,1.0,0.5,qwen3:4b-instruct
+hybrid_rerank,What are Zava's core values according to the company overview?,0.5,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,How much vacation do Senior employees get at Zava?,1.0,1.0,0.8,qwen3:4b-instruct
+hybrid_rerank,What vacation does the Executive tier get?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,What industry does the Zava employee handbook say Zava is in?,1.0,nan,1.0,qwen3:4b-instruct
+hybrid_rerank,How often are performance reviews conducted at Zava?,1.0,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,What is the Compliance Hotline number for anonymous whistleblower reports?,1.0,1.0,0.5,qwen3:4b-instruct
+hybrid_rerank,Who should I contact with questions about Zava's privacy policy?,1.0,1.0,0.667,qwen3:4b-instruct
+hybrid_rerank,How often must employees complete data security training?,0.75,nan,0.667,qwen3:4b-instruct
+hybrid_rerank,How many years of executive management experience does the CEO role require?,0.5,1.0,1.0,qwen3:4b-instruct
+hybrid_rerank,Who prepared the Financial Market Analysis Report 2023?,0.917,nan,0.5,qwen3:4b-instruct
+hybrid_rerank,Which markets does the 2023 financial market report cover?,1.0,1.0,0.75,qwen3:4b-instruct
+hybrid_rerank,What is the correlation between Bitcoin and Ethereum in the financial report?,0.0,1.0,0.0,qwen3:4b-instruct
+hybrid_rerank,What is the correlation between the S&P 500 and NASDAQ in the 2023 report?,1.0,nan,1.0,qwen3:4b-instruct
+dense,What is the deductible for the Northwind Standard plan?,0.45,1.0,1.0,phi4-mini
+dense,What is the out-of-pocket maximum for Northwind Standard?,1.0,nan,1.0,phi4-mini

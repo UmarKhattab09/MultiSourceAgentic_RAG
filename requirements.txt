@@ -1,0 +1,16 @@
+# App: ingest, hybrid retrieval, agent, UI. Install CPU or CUDA torch first if you want to control which one you get.
+chromadb==1.5.9
+pypdf==6.21.2
+ollama==0.6.3
+openai==1.109.1
+PyYAML==6.0.3
+rank-bm25==0.2.2
+sentence-transformers==6.2.0
+langgraph==1.2.17
+langgraph-checkpoint-sqlite==3.1.2
+langchain-core==1.7.0
+langchain-ollama==1.1.0
+langsmith==0.14.12
+ddgs==9.16.1
+python-dotenv==1.2.4
+streamlit==1.66.1

@@ -1,0 +1,13 @@
+model,mode,n,tool_accuracy,valid_json_rate,latency_p50_s,latency_p95_s,context_precision,context_recall,faithfulness,ragas_n
+qwen3:4b-instruct,dense,60,0.967,1.0,7.54,13.84,0.556,0.625,0.679,34
+qwen3:4b-instruct,hybrid,60,0.967,1.0,8.74,19.62,0.71,0.86,0.824,34
+qwen3:4b-instruct,hybrid_rerank,60,0.967,1.0,10.38,21.61,0.858,0.962,0.816,34
+gemma4:e4b,dense,60,1.0,1.0,9.66,26.53,,,,
+gemma4:e4b,hybrid,60,1.0,1.0,10.5,25.18,,,,
+gemma4:e4b,hybrid_rerank,60,1.0,1.0,11.26,25.64,,,,
+phi4-mini,dense,60,1.0,1.0,4.65,10.6,,,,
+phi4-mini,hybrid,60,0.983,0.983,5.97,40.63,,,,
+phi4-mini,hybrid_rerank,60,1.0,1.0,8.34,40.76,,,,
+llama3.2:3b,dense,60,1.0,1.0,2.96,5.69,,,,
+llama3.2:3b,hybrid,60,1.0,1.0,3.54,6.42,,,,
+llama3.2:3b,hybrid_rerank,60,1.0,1.0,4.99,8.24,,,,

@@ -1,0 +1,10 @@
+.venv/
+.env
+chroma_db/
+chat_memory.db
+__pycache__/
+eval/
+docs/
+tests/
+data/
+CLAUDE.md

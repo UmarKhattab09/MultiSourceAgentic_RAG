@@ -1,0 +1,60 @@
+{"question": "What is the deductible for the Northwind Standard plan?", "tool": "search_docs", "expected_answer": "$2,000 per person, per year."}
+{"question": "What is the out-of-pocket maximum for Northwind Standard?", "tool": "search_docs", "expected_answer": "$6,000 per person, per year."}
+{"question": "What is the copay for a primary care visit under Northwind Standard?", "tool": "search_docs", "expected_answer": "$30 for primary care visits."}
+{"question": "What is the specialist visit copay on Northwind Standard?", "tool": "search_docs", "expected_answer": "$50 for specialist visits."}
+{"question": "What is the coinsurance for Northwind Standard after the deductible?", "tool": "search_docs", "expected_answer": "20% of the remaining cost after the deductible is met."}
+{"question": "What is the out-of-pocket maximum for Northwind Health Plus?", "tool": "search_docs", "expected_answer": "$4,000 per year."}
+{"question": "What is the coinsurance for Northwind Health Plus?", "tool": "search_docs", "expected_answer": "20%."}
+{"question": "What is the in-network primary care copay for Northwind Health Plus?", "tool": "search_docs", "expected_answer": "Around $20."}
+{"question": "What is the out-of-network specialist copay under Northwind Health Plus?", "tool": "search_docs", "expected_answer": "Around $75."}
+{"question": "What is the in-network emergency services copay on Northwind Health Plus?", "tool": "search_docs", "expected_answer": "Around $100."}
+{"question": "Does Northwind Standard cover emergency services?", "tool": "search_docs", "expected_answer": "No. Northwind Standard does not cover emergency services, mental health and substance abuse, or out-of-network services."}
+{"question": "Does Northwind Standard cover mental health and substance abuse services?", "tool": "search_docs", "expected_answer": "No, Northwind Standard does not offer mental health and substance abuse coverage."}
+{"question": "Which Northwind plan covers out-of-network services?", "tool": "search_docs", "expected_answer": "Northwind Health Plus; Northwind Standard does not cover out-of-network services."}
+{"question": "What services do both Northwind plans cover?", "tool": "search_docs", "expected_answer": "Both cover medical, vision, and dental services, prescription drugs, and preventive care such as routine physicals, well-child visits, immunizations, mammograms and colonoscopies."}
+{"question": "How does Zava collect the employee's share of health insurance costs?", "tool": "search_docs", "expected_answer": "Zava deducts the employee's portion of the healthcare cost from each paycheck, spreading it over the year."}
+{"question": "How much can employees expense through PerksPlus?", "tool": "search_docs", "expected_answer": "Up to $1000 for fitness-related programs."}
+{"question": "Are gym memberships covered by PerksPlus?", "tool": "search_docs", "expected_answer": "Yes, gym memberships are covered."}
+{"question": "Which lessons does PerksPlus cover?", "tool": "search_docs", "expected_answer": "Skiing and snowboarding, scuba diving, surfing, and horseback riding lessons."}
+{"question": "What is not covered by PerksPlus?", "tool": "search_docs", "expected_answer": "Non-fitness related expenses, medical treatments and procedures, travel expenses not related to a fitness program, and food and supplements."}
+{"question": "Can I use PerksPlus to buy supplements?", "tool": "search_docs", "expected_answer": "No, food and supplements are not covered."}
+{"question": "When was Zava founded?", "tool": "search_docs", "expected_answer": "1985."}
+{"question": "What did Zava launch in 1990?", "tool": "search_docs", "expected_answer": "The first-ever handheld personal computer."}
+{"question": "When did Zava expand into sustainable product lines?", "tool": "search_docs", "expected_answer": "2015."}
+{"question": "What are Zava's core values according to the company overview?", "tool": "search_docs", "expected_answer": "Innovation, Diversity, and Sustainability."}
+{"question": "How much vacation do Senior employees get at Zava?", "tool": "search_docs", "expected_answer": "4 weeks, with travel vouchers for a dream destination."}
+{"question": "What vacation does the Executive tier get?", "tool": "search_docs", "expected_answer": "6 weeks, plus a luxury resort getaway with family."}
+{"question": "What industry does the Zava employee handbook say Zava is in?", "tool": "search_docs", "expected_answer": "The aerospace industry, providing advanced electronic components for commercial and military aircraft."}
+{"question": "How often are performance reviews conducted at Zava?", "tool": "search_docs", "expected_answer": "Annually."}
+{"question": "What is the Compliance Hotline number for anonymous whistleblower reports?", "tool": "search_docs", "expected_answer": "1-800-555-1212."}
+{"question": "Who should I contact with questions about Zava's privacy policy?", "tool": "search_docs", "expected_answer": "The Privacy Officer at privacy@Zava.com."}
+{"question": "How often must employees complete data security training?", "tool": "search_docs", "expected_answer": "At the start of employment and annually thereafter."}
+{"question": "How many years of executive management experience does the CEO role require?", "tool": "search_docs", "expected_answer": "10+ years of experience in executive management."}
+{"question": "Who prepared the Financial Market Analysis Report 2023?", "tool": "search_docs", "expected_answer": "Contoso Financial Analytics."}
+{"question": "Which markets does the 2023 financial market report cover?", "tool": "search_docs", "expected_answer": "Stocks, cryptocurrencies, and commodities."}
+{"question": "What is the correlation between Bitcoin and Ethereum in the financial report?", "tool": "search_docs", "expected_answer": "0.9."}
+{"question": "What is the correlation between the S&P 500 and NASDAQ in the 2023 report?", "tool": "search_docs", "expected_answer": "0.95."}
+{"question": "What is 15% of 84,000?", "tool": "calculator", "expected_answer": "12600"}
+{"question": "What is 2 to the power of 16?", "tool": "calculator", "expected_answer": "65536"}
+{"question": "Calculate (125 + 375) * 4", "tool": "calculator", "expected_answer": "2000"}
+{"question": "What is 1,250 divided by 25?", "tool": "calculator", "expected_answer": "50"}
+{"question": "What is 17 times 23?", "tool": "calculator", "expected_answer": "391"}
+{"question": "If I pay $30 copay 7 times, how much do I pay in total?", "tool": "calculator", "expected_answer": "210"}
+{"question": "What is 6000 minus 2000?", "tool": "calculator", "expected_answer": "4000"}
+{"question": "What's 3.5% of 250,000?", "tool": "calculator", "expected_answer": "8750"}
+{"question": "What is 144 squared?", "tool": "calculator", "expected_answer": "20736"}
+{"question": "What is (900 - 120) / 6?", "tool": "calculator", "expected_answer": "130"}
+{"question": "Who won the 2022 FIFA World Cup?", "tool": "web_search", "expected_answer": "Argentina"}
+{"question": "Who is the current CEO of Nvidia?", "tool": "web_search", "expected_answer": "Jensen Huang"}
+{"question": "What is the capital of Australia?", "tool": "web_search", "expected_answer": "Canberra"}
+{"question": "What is the latest news about the James Webb Space Telescope?", "tool": "web_search", "expected_answer": ""}
+{"question": "What is the current price of Bitcoin?", "tool": "web_search", "expected_answer": ""}
+{"question": "Who wrote the novel Dune?", "tool": "web_search", "expected_answer": "Frank Herbert"}
+{"question": "What is the weather forecast for London this week?", "tool": "web_search", "expected_answer": ""}
+{"question": "What is the population of Japan?", "tool": "web_search", "expected_answer": "About 123 million"}
+{"question": "What is today's date?", "tool": "get_datetime", "expected_answer": ""}
+{"question": "What time is it right now?", "tool": "get_datetime", "expected_answer": ""}
+{"question": "What day of the week is it?", "tool": "get_datetime", "expected_answer": ""}
+{"question": "What year is it?", "tool": "get_datetime", "expected_answer": ""}
+{"question": "What month are we in?", "tool": "get_datetime", "expected_answer": ""}
+{"question": "Is it currently morning or afternoon?", "tool": "get_datetime", "expected_answer": ""}

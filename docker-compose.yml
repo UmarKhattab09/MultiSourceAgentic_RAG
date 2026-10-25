@@ -1,0 +1,30 @@
+services:
+  ollama:
+    image: ollama/ollama:0.40.6
+    volumes:
+      - ollama:/root/.ollama
+    # NVIDIA GPU. No NVIDIA GPU? Delete this deploy block (models then run on CPU, much slower).
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    depends_on:
+      - ollama
+    volumes:
+      - ./data:/app/data:ro
+      - chroma:/app/chroma_db
+    env_file:
+      - path: .env
+        required: false   # optional: LangSmith tracing
+
+volumes:
+  ollama:
+  chroma:
