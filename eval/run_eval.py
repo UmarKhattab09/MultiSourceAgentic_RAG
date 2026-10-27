@@ -8,6 +8,7 @@ Both passes resume from their CSVs; delete eval/results.csv, details.csv and rag
 
 Usage: python eval/run_eval.py          (both passes)
        python eval/run_eval.py agent    (pass 1 only)
+       python eval/run_eval.py agent gemma4:e2b --mode=hybrid_rerank   (pass 1 for some models / one mode)
        python eval/run_eval.py ragas    (pass 2 only; resumes from eval/ragas_scores.csv)
        python eval/run_eval.py ragas phi4-mini llama3.2:3b   (grade other models' answers, same judge)
 """
@@ -68,14 +69,14 @@ def ragas_subset(questions):
     n = min(RAGAS_QUESTIONS, len(docs))
     return {docs[round(i * (len(docs) - 1) / max(n - 1, 1))] for i in range(n)}
 
-def agent_pass(questions):
+def agent_pass(questions, models=MODELS, modes=MODES):
     graph = build_graph(MemorySaver())  # in-memory: eval questions must not share chat history
     # Resume: keep finished combos from a previous (interrupted) run
     results, details = read_csv(RESULTS), read_csv(DETAILS)
     finished = {(r["model"], r["mode"]) for r in results}
     details = [d for d in details if (d["model"], d["mode"]) in finished]
-    for model in MODELS:
-        for mode in MODES:
+    for model in models:
+        for mode in modes:
             if (model, mode) in finished:
                 print(f"=== {model} / {mode}: already done, skipping ===", flush=True)
                 continue
@@ -160,7 +161,9 @@ def main():
     questions = [json.loads(line) for line in open(EVAL / "questions.jsonl", encoding="utf-8")]
     step = sys.argv[1] if len(sys.argv) > 1 else "all"
     if step in ("all", "agent"):
-        agent_pass(questions)
+        args = sys.argv[2:]
+        modes = [a.split("=", 1)[1] for a in args if a.startswith("--mode=")] or MODES
+        agent_pass(questions, [a for a in args if not a.startswith("--")] or MODELS, modes)
     if step in ("all", "ragas"):
         ragas_pass(questions, sys.argv[2:] or [JUDGE])
     plot()

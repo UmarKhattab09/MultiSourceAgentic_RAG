@@ -8,6 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY config.yaml .
 COPY src/ src/
+COPY mcp_servers/ mcp_servers/
 
 ENV OLLAMA_URL=http://ollama:11434
 EXPOSE 8501

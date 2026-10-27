@@ -64,8 +64,7 @@ def chunk_text(documents:list[dict], chunk_size:int=380, chunk_overlap:int=50)->
             })
     return chunks
 
-def main():
-    directory_path = str(ROOT / "data")
+def main(directory_path: str = str(ROOT / "data")):
     documents = extract_text_from_pdfs(directory_path) + load_markdown(directory_path)
     chunks = chunk_text(documents)
 
@@ -98,4 +97,5 @@ def main():
 
 #test
 if __name__ == "__main__":
-    main()
+    import sys
+    main(*sys.argv[1:2])  # optional folder, e.g. data/poisoned with RAG_COLLECTION set

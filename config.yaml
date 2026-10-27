@@ -1,2 +1,2 @@
-model: "qwen3:4b-instruct"
+model: "gemma4:e2b"
 retrieval_mode: "hybrid_rerank"  # dense | hybrid | hybrid_rerank

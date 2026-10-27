@@ -14,3 +14,5 @@ langsmith==0.14.12
 ddgs==9.16.1
 python-dotenv==1.2.4
 streamlit==1.66.1
+mcp==1.30.0
+langchain-mcp-adapters==0.3.2

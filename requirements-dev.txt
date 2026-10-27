@@ -4,3 +4,4 @@ ragas==0.4.3
 langchain-community==0.4.2
 matplotlib==3.11.2
 pytest==9.1.1
+fpdf2==2.8.9

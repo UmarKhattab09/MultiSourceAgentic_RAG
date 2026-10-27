@@ -103,3 +103,39 @@ hybrid_rerank,What is the correlation between Bitcoin and Ethereum in the financ
 hybrid_rerank,What is the correlation between the S&P 500 and NASDAQ in the 2023 report?,1.0,nan,1.0,qwen3:4b-instruct
 dense,What is the deductible for the Northwind Standard plan?,0.45,1.0,1.0,phi4-mini
 dense,What is the out-of-pocket maximum for Northwind Standard?,1.0,nan,1.0,phi4-mini
+hybrid_rerank,What is the deductible for the Northwind Standard plan?,0.867,1.0,0.667,gemma4:e2b
+hybrid_rerank,What is the out-of-pocket maximum for Northwind Standard?,0.7,1.0,0.5,gemma4:e2b
+hybrid_rerank,What is the copay for a primary care visit under Northwind Standard?,0.0,0.0,1.0,gemma4:e2b
+hybrid_rerank,What is the specialist visit copay on Northwind Standard?,0.833,1.0,0.833,gemma4:e2b
+hybrid_rerank,What is the coinsurance for Northwind Standard after the deductible?,1.0,1.0,1.0,gemma4:e2b
+hybrid_rerank,What is the out-of-pocket maximum for Northwind Health Plus?,0.25,1.0,1.0,gemma4:e2b
+hybrid_rerank,What is the coinsurance for Northwind Health Plus?,0.833,1.0,0.5,gemma4:e2b
+hybrid_rerank,What is the in-network primary care copay for Northwind Health Plus?,1.0,1.0,1.0,gemma4:e2b
+hybrid_rerank,What is the out-of-network specialist copay under Northwind Health Plus?,1.0,1.0,1.0,gemma4:e2b
+hybrid_rerank,What is the in-network emergency services copay on Northwind Health Plus?,1.0,1.0,1.0,gemma4:e2b
+hybrid_rerank,Does Northwind Standard cover emergency services?,1.0,nan,1.0,gemma4:e2b
+hybrid_rerank,Does Northwind Standard cover mental health and substance abuse services?,nan,nan,0.889,gemma4:e2b
+hybrid_rerank,Which Northwind plan covers out-of-network services?,0.2,nan,1.0,gemma4:e2b
+hybrid_rerank,What services do both Northwind plans cover?,nan,nan,1.0,gemma4:e2b
+hybrid_rerank,How does Zava collect the employee's share of health insurance costs?,0.75,1.0,0.75,gemma4:e2b
+hybrid_rerank,How much can employees expense through PerksPlus?,1.0,1.0,1.0,gemma4:e2b
+hybrid_rerank,Are gym memberships covered by PerksPlus?,1.0,1.0,1.0,gemma4:e2b
+hybrid_rerank,Which lessons does PerksPlus cover?,1.0,1.0,1.0,gemma4:e2b
+hybrid_rerank,What is not covered by PerksPlus?,1.0,nan,0.667,gemma4:e2b
+hybrid_rerank,Can I use PerksPlus to buy supplements?,nan,1.0,1.0,gemma4:e2b
+hybrid_rerank,When was Zava founded?,1.0,1.0,0.5,gemma4:e2b
+hybrid_rerank,What did Zava launch in 1990?,1.0,1.0,1.0,gemma4:e2b
+hybrid_rerank,When did Zava expand into sustainable product lines?,1.0,1.0,0.5,gemma4:e2b
+hybrid_rerank,What are Zava's core values according to the company overview?,0.5,1.0,0.5,gemma4:e2b
+hybrid_rerank,How much vacation do Senior employees get at Zava?,1.0,1.0,0.5,gemma4:e2b
+hybrid_rerank,What vacation does the Executive tier get?,1.0,1.0,0.75,gemma4:e2b
+hybrid_rerank,What industry does the Zava employee handbook say Zava is in?,1.0,1.0,1.0,gemma4:e2b
+hybrid_rerank,How often are performance reviews conducted at Zava?,1.0,1.0,1.0,gemma4:e2b
+hybrid_rerank,What is the Compliance Hotline number for anonymous whistleblower reports?,1.0,1.0,0.5,gemma4:e2b
+hybrid_rerank,Who should I contact with questions about Zava's privacy policy?,1.0,1.0,1.0,gemma4:e2b
+hybrid_rerank,How often must employees complete data security training?,0.75,nan,0.667,gemma4:e2b
+hybrid_rerank,How many years of executive management experience does the CEO role require?,0.5,1.0,1.0,gemma4:e2b
+hybrid_rerank,Who prepared the Financial Market Analysis Report 2023?,0.917,nan,1.0,gemma4:e2b
+hybrid_rerank,Which markets does the 2023 financial market report cover?,1.0,1.0,1.0,gemma4:e2b
+hybrid_rerank,What is the correlation between Bitcoin and Ethereum in the financial report?,0.0,0.0,1.0,gemma4:e2b
+hybrid_rerank,What is the correlation between the S&P 500 and NASDAQ in the 2023 report?,1.0,1.0,0.5,gemma4:e2b

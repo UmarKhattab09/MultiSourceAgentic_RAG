@@ -8,7 +8,7 @@ from chromadb.utils import embedding_functions
 
 ROOT = Path(__file__).resolve().parent.parent
 CHROMA_PATH = str(ROOT / "chroma_db")
-COLLECTION = "pdf_documents"
+COLLECTION = os.getenv("RAG_COLLECTION", "pdf_documents")  # the red-team eval uses its own index
 
 # Served by the local Ollama server, which manages where the model files live
 EMBEDDING_MODEL_NAME = "nomic-embed-text"

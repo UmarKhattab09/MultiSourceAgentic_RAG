@@ -7,3 +7,5 @@ CLAUDE.md
 eval/*.log
 eval/*_partial.csv
 eval/*_backup.csv
+mcp_servers/hr.db
+eval/attack_hr.db

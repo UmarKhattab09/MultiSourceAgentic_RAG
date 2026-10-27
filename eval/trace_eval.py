@@ -28,7 +28,7 @@ def main():
     questions = [json.loads(line) for line in open(ROOT / "eval" / "questions.jsonl", encoding="utf-8")]
     correct = 0
     for i, q in enumerate(questions, 1):
-        out = graph.invoke({"messages": [HumanMessage(q["question"])]},
+        out = graph.invoke({"messages": [HumanMessage(q["question"])], "steps": []},
                            {"configurable": {"thread_id": str(uuid.uuid4())}, "run_name": "agent",
                             "tags": ["eval", cfg["model"], cfg["retrieval_mode"]],
                             "metadata": {"expected_tool": q["tool"], "expected_answer": q["expected_answer"]}})
